@@ -1,0 +1,41 @@
+
+
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "surname": "Nowak", "age": 12, "active": true}' http://localhost:8098/buckets/s23678/keys/jan
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:51:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Marta", "surname": "Kowalska", "age": 45, "active": true}' http://localhost:8098/buckets/s23678/keys/marta
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:51:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Anna", "surname": "Kowal", "age": 65, "active": false}' http://localhost:8098/buckets/s23678/keys/anna
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:51:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Samuel", "surname": "Eto", "age": 41, "active": false}' http://localhost:8098/buckets/s23678/keys/samuel
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:51:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kevin", "surname": "Sam w domu", "age": 22, "active": true}' http://localhost:8098/buckets/s23678/keys/kevin
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:52:59 GMT
+Content-Type: application/json
+Content-Length: 0

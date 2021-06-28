@@ -1,0 +1,8 @@
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPOST -H "Content-Type: application/json" -d '{"example": true}' http://localhost:8098/buckets/s23678/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s23678/keys/XNfrmYuF5oQkY2k64uxB76774E8
+Date: Mon, 28 Jun 2021 14:56:55 GMT
+Content-Type: application/json
+Content-Length: 0

@@ -1,0 +1,13 @@
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XGET  http://localhost:8098/buckets/s23678/keys/XNfrmYuF5oQkY2k64uxB76774E8
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvg9NOzeXgcFPKYMpkTGPlcE83u8WXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23678>; rel="up"
+Last-Modified: Mon, 28 Jun 2021 14:56:55 GMT
+ETag: "6BDG7qeyED9CN8MDgQZ9UW"
+Date: Mon, 28 Jun 2021 14:57:47 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"example": true}adakosa@DESKTOP-5ID7MAI:~$

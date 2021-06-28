@@ -1,0 +1,7 @@
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kevin", "age": 22, "active": true}' http://localhost:8098/buckets/s23678/keys/kevin
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:54:56 GMT
+Content-Type: application/json
+Content-Length: 0

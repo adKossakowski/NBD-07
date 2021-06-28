@@ -1,0 +1,8 @@
+adakosa@DESKTOP-5ID7MAI:~$ curl -i -XGET  http://localhost:8098/buckets/s23678/keys/anna
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 14:56:12 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
